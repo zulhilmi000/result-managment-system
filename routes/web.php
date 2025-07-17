@@ -62,6 +62,6 @@ Route::post('/contact', function (\Illuminate\Http\Request $request) {
     return back()->with('success', 'Your message has been sent!');
 })->name('contact.submit');
 
-Route::get('/view-api-docs', function () {
-    return view('docs.index');
-});
+// Route::get('/view-api-docs', function () {
+//     return view('docs.index');
+// });
