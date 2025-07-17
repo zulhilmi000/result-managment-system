@@ -1,0 +1,68 @@
+body {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.main-title {
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+form {
+  background-color: rgba(89, 242, 24, 0.1);
+  padding: 30px;
+  border-radius: 20px;
+  width: 350px;
+  margin: 30px auto;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  color: black;
+}
+
+.form-group {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button  {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+a:link,
+a:visited {
+      background: linear-gradient(135deg, #4CAF50 0%, #2E8B57 100%);
+      color: white;
+      padding: 14px 28px;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 50px;
+      font-weight: 500;
+      box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+      font-size: 0.95rem;
+      margin-top: 10px;
+}

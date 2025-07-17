@@ -1,0 +1,23 @@
+.site-footer {
+  background-color: #1f1f1f;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+  font-size: 14px;
+  border-top: 1px solid #444;
+}
+
+.site-footer .footer-links {
+  margin-top: 10px;
+}
+
+.site-footer .footer-links  {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+    

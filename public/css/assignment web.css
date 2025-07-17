@@ -1,0 +1,159 @@
+html, body {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-title {
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.form {
+  background-color: rgba(89, 242, 24, 0.1);
+  padding: 30px;
+  border-radius: 20px;
+  width: 350px;
+  margin: 30px auto;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  color: black;
+  flex: 1;
+}
+
+.form-group {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Submit Button */
+.submit-btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #43a047;
+}
+
+/* Navigation */
+nav {
+  background-color: #333;
+  padding: 1rem 2rem;
+  position: relative;
+}
+
+nav a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 107, 149, 0.4);
+  background: linear-gradient(135deg, #FF6B95 0%, #FF9A8B 100%);
+}
+
+/* Logout Button */
+.logout-btn {
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+  transform: translateY(-50%);
+}
+
+.logout-btn form {
+  margin: 0;
+}
+
+.logout-btn button {
+  padding: 6px 14px;
+  font-size: 14px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn button:hover {
+  background-color: #c0392b;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #1f1f1f;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  border-top: 1px solid #444;
+}
+
+.site-footer .footer-links {
+  margin-top: 10px;
+}
+
+.site-footer .footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+/* Popup */
+.popup {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  z-index: 9999;
+  animation: fadeOut 3s ease forwards;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; display: none; }
+}
