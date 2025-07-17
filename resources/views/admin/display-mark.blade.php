@@ -14,7 +14,7 @@
 @section('nav and foot')
 <body>
 
-    <h1 class="main-title">Overall Result</h1>
+    <h1 class="main-title">Overall Result - </h1>
 
     <!-- Search Bar for IC -->
     <form method="GET" action="" style="margin-bottom: 20px;">
